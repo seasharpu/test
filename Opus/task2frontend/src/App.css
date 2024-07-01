@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: slategray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Wrapper {
+    background-color: #222;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px; /* Increased width for a larger box */
+}
+
+input[type="text"] {
+    width: 90%; /* Increased width for the input */
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 0.8em; /* Increased font size */
+}
+
+    input[type="text"]:focus {
+        outline: none;
+        box-shadow: 0 0 10px #719ECE;
+    }
+
+button {
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 30px;
+    font-size: 1.3em; /* Increased font size */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    button:hover {
+        background-color: #ff9e1a;
+    }
+
+    button:active {
+        background-color: #e57c00;
+    }
+
+    button:focus {
+        outline: none;
+        box-shadow: 0 0 10px #ff8c00;
+    }
+
+div {
+    margin-top: 20px;
+    color: white;
+    font-size: 1.2em; /* Increased font size */
+}
+
+    div.Error {
+        color: red;
+    }
+
+    div.Response {
+        color: #00ff00;
+    }
