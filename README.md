@@ -17,6 +17,7 @@ dotnet run
 
 cd opus/task2api
 dotnet run
+Swagger documentation: localhost:port/swagger
 
 # Navigate to the frontend directory
 cd opus/task2frontend
