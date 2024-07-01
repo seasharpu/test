@@ -1,5 +1,6 @@
 
 ```
+Calculator fullstack app that sums up numbers separated by commas.
 
 # Clone the repository
 
