@@ -5,7 +5,7 @@ Clone 'test' repo
 
 Console Calculator: navigate to task1 and run dotnetbuild and dotnet run 
 
-Calculator Tests: run xunit tests in visual studio. Test > run all tests
+Calculator Tests: run xunit tests in visual studio. Test > run all tests (might need to run dotnet build in task1tester first)
 
 API: navigate to task2API and run commands dotnet build and dotnet run. open in browser via localhost and port to see api documentation via swagger at localhost/swagger/
 
