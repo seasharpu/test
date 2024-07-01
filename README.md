@@ -3,11 +3,13 @@
 
 Clone 'test' repo
 
-Console Calculator: navigate to task1 and run dotnetbuild and dotnet run 
+Navigate to opus map. Run dotnet restore.
 
-Calculator Tests: run xunit tests in visual studio. Test > run all tests (might need to run dotnet build in task1tester first)
+Console Calculator: navigate to task1 and dotnet run 
 
-API: navigate to task2API and run commands dotnet build and dotnet run. open in browser via localhost and port to see api documentation via swagger at localhost/swagger/
+Calculator Tests: run xunit tests in visual studio. navigate to opus and run dotnet test
+
+API: navigate to task2API and run dotnet run. open in browser via localhost and port to see api documentation via swagger at localhost/swagger/
 
 Frontend: navigate to task2frontend and run npm install and npm run dev. open website on localhost and port and add numbers to sum. 
 examples:
