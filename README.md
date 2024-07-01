@@ -7,7 +7,7 @@ Navigate to opus map. Run dotnet restore.
 
 Console Calculator: navigate to task1 and dotnet run 
 
-Calculator Tests: run xunit tests in visual studio. navigate to opus and run dotnet test
+Calculator xUnit Tests: navigate to opus and run dotnet test. in VS Test > Run all tests
 
 API: navigate to task2API and run dotnet run. open in browser via localhost and port to see api documentation via swagger at localhost/swagger/
 
