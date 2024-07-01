@@ -2,6 +2,6 @@
 {
     public class NumbersDto
     {
-        public string Numbers { get; set; }
+        public string Numbers { get; set; } = "";
     }
 }

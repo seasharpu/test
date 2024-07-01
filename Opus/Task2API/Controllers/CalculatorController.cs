@@ -34,7 +34,7 @@ namespace Task2API.Controllers
 
 
         [HttpPost("sum")]
-        public async Task<ActionResult<NumbersDto>> Sum(NumbersDto dto)
+        public ActionResult<NumbersDto> Sum(NumbersDto dto)
         {
             if (string.IsNullOrEmpty(dto.Numbers))
             {
