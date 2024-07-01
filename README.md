@@ -31,9 +31,9 @@ npm run build
 npm run dev
 
 
-#test calculator.
+#Test calculator
 
-examples:
+Examples:
 Empty string returns 0
 More than 2 numbers gives error: invalid amount of arguments
 1.1, 1.5 = 2.6
