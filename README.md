@@ -1,24 +1,41 @@
-# test
 
-
-Clone 'test' repo
-
-Navigate to opus map. Run dotnet restore.
-
-Console Calculator: navigate to task1 and dotnet run 
-
-Calculator xUnit Tests: navigate to opus and run dotnet test. in VS Test > Run all tests
-
-API: navigate to task2API and run dotnet run. open in browser via localhost and port to see api documentation via swagger at localhost/swagger/
-
-Frontend: navigate to task2frontend and run npm install and npm run dev. open website on localhost and port and add numbers to sum.  
-
-
-examples:
 ```
 
-empty string returns 0
-more than 2 numbers gives error: invalid amount of arguments
+# Clone the repository
+
+# Restore dependencies and build
+dotnet restore
+dotnet build
+
+# Run tests
+cd <opus>
+dotnet test
+
+# Run the application
+cd <opus/task1>
+dotnet run
+
+cd <opus/task2api>
+dotnet run
+
+# Navigate to the frontend directory
+cd opus/task2frontend
+
+# Install dependencies
+npm install
+
+# Build the frontend
+npm run build
+
+# run dev server
+npm run dev
+
+
+#test calculator.
+
+examples:
+Empty string returns 0
+More than 2 numbers gives error: invalid amount of arguments
 1.1, 1.5 = 2.6
 1, , 1 = error, missing number second position
 -1,1-5 = no negative numbers allowed [-1, -5]
