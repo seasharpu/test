@@ -38,5 +38,5 @@ Empty string returns 0
 More than 2 numbers gives error: invalid amount of arguments
 1.1, 1.5 = 2.6
 1, , 1 = error, missing number second position
--1,1-5 = no negative numbers allowed [-1, -5]
+-1,1,-5 = no negative numbers allowed [-1, -5]
 ```
