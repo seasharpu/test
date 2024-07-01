@@ -8,14 +8,14 @@ dotnet restore
 dotnet build
 
 # Run tests
-cd <opus>
+cd opus
 dotnet test
 
 # Run the application
-cd <opus/task1>
+cd opus/task1
 dotnet run
 
-cd <opus/task2api>
+cd opus/task2api
 dotnet run
 
 # Navigate to the frontend directory
