@@ -4,6 +4,7 @@
 # Clone the repository
 
 # Restore dependencies and build
+cd opus
 dotnet restore
 dotnet build
 
